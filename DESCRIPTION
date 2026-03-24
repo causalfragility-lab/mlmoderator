@@ -1,6 +1,6 @@
 Package: mlmoderator
 Type: Package
-Title: Tools for Probing, Plotting, and Interpreting Multilevel Interaction Effects
+Title: Probing, Plotting, and Interpreting Multilevel Interaction Effects
 Version: 0.2.0
 Authors@R:
     person(
@@ -12,20 +12,21 @@ Authors@R:
     )
 Description: Provides a unified workflow for probing, plotting, and assessing
     the robustness of cross-level interaction effects in two-level mixed-effects
-    models fitted with lme4 (Bates et al., 2015)
+    models fitted with 'lme4' (Bates et al., 2015)
     <doi:10.18637/jss.v067.i01>. Implements simple slopes analysis following
     Aiken and West (1991, ISBN:9780761907121), Johnson-Neyman intervals
     following Johnson and Fay (1950) <doi:10.1007/BF02288864> and Bauer
     and Curran (2005) <doi:10.1207/s15327906mbr4003_5>, and grand- or
     group-mean centering as described in Enders and Tofighi (2007)
     <doi:10.1037/1082-989X.12.2.121>. Includes a slope variance decomposition
-    that separates fixed-effect uncertainty from random-slope heterogeneity
+    that separates fixed-effect uncertainty from random-slope variance
     (tau11), a contour surface plot of predicted outcomes over the full
     predictor-by-moderator space, and robustness diagnostics comprising
-    ICC-shift analysis and leave-one-cluster-out (LOCO) stability checks.
-    Designed for researchers in education, psychology, biostatistics,
-    epidemiology, organizational science, and any field where outcomes are
-    clustered within higher-level units.
+    intraclass correlation coefficient shift analysis and
+    leave-one-cluster-out (LOCO) stability checks. Designed for researchers
+    in education, psychology, biostatistics, epidemiology, organizational
+    science, and other fields where outcomes are clustered within
+    higher-level units.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en-US
