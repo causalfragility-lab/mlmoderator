@@ -1,7 +1,7 @@
 Package: mlmoderator
 Type: Package
 Title: Probing, Plotting, and Interpreting Multilevel Interaction Effects
-Version: 0.2.0
+Version: 0.2.1
 Authors@R:
     person(
       given   = "Subir",
