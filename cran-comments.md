@@ -1,11 +1,12 @@
- Resubmission addressing CRAN feedback:
+## Resubmission
+* Fixed author attribution in citation output
+  Previously showed 'Your Name' placeholder
+  Now correctly shows Subir Hait
 
-* Removed the redundant "Tools for" from the Title.
-* Revised DESCRIPTION to place package/software names in single quotes.
-* Expanded ICC to "intraclass correlation coefficient".
-* Replaced \dontrun{} with \donttest{} where appropriate.
-* Confirmed that no \dontrun{} blocks remain in the package source or
-  generated Rd files.
+## Test environments
+* Windows (local), R 4.5.0
+* R-hub Windows Server 2022
+* win-builder (devel and release)
 
-Local R CMD check results:
-0 errors | 0 warnings | 1 NOTE
+## R CMD check results
+0 errors | 0 warnings | 0 notes
