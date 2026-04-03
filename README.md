@@ -253,7 +253,7 @@ If you use `mlmoderator` in your research, please cite:
 ```
 Hait, S. (2026). mlmoderator: Robustness Diagnostics and Visualization
 for Cross-Level Interaction Effects in Multilevel Models.
-R package version 0.2.0.
+R package version 0.2.1.
 https://github.com/causalfragility-lab/mlmoderator
 ```
 
@@ -265,7 +265,7 @@ Or in BibTeX:
             for Cross-Level Interaction Effects in Multilevel Models},
   author = {Subir Hait},
   year   = {2026},
-  note   = {R package version 0.2.0},
+  note   = {R package version 0.2.1},
   url    = {https://github.com/causalfragility-lab/mlmoderator}
 }
 ```
